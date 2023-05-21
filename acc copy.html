@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="acc copy.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="acc copy.css" />
+    <title>Sign In Page</title>
+  </head>
+  <body>
+    <div class="contain" id="contain">
+      <div class="formcontain logincontain">
+        <form
+          action="home.html"
+          name="idcreate"
+          method="post"
+          onsubmit="return validateform()"
+        >
+          <h1>Sign Up</h1>
+          <input type="text" placeholder="Name" name="username" value="" />
+          <input type="email" placeholder="Email" name="email" value="" />
+          <input
+            type="number"
+            placeholder="Mobile Number"
+            name="phone"
+            value=""
+          />
+          <input type="password" placeholder="Password" name="pass" value="" />
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            name="cpass"
+            value=""
+          />
+          <!-- <label>Agree all yor<input name = "thingsliked" type = "checkbox" value = "Images"></label> -->
+          <input
+            type="submit"
+            name="login"
+            value="Save"
+            formaction="http://localhost:3000/save"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

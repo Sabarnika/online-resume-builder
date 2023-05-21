@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">UILOGIN</a>
+    </header>
+
+    <main>
+      <div class="form-header">
+        <h1>Welcome back</h1>
+        <span> Please enter your details. </span>
+      </div>
+
+      <form method="post" action="home.html">
+        <article>
+          <label for="name"> Name </label>
+          <input
+            type="text"
+            placeholder="Enter your name"
+            name="username"
+            id="name"
+            value=""
+          />
+        </article>
+
+        <article>
+          <label for="pass"> Password </label>
+          <input
+            type="password"
+            placeholder="Type your password"
+            id="pass"
+            name="pass"
+            value=""
+          />
+        </article>
+
+        <section>
+          <div>
+            <input type="checkbox" id="check" />
+            <label for="check"> Remeber for 30 days </label>
+          </div>
+
+          <span>
+            <a href="#">Forgot password</a>
+          </span>
+        </section>
+
+        <input
+          type="submit"
+          name="login"
+          value="Login"
+          formaction="http://localhost:3000/login"
+        />
+      </form>
+
+      <section class="footer">
+        <p>Don't have an account? <a href="acc copy.html">Sign up</a></p>
+      </section>
+    </main>
+  </body>
+</html>

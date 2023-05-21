@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang>
+  <head>
+    <title>Resume Builder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <style>
+      .navbar-brand {
+        padding-top: 28px;
+        height: 80px;
+        font-weight: bold;
+        font-size: larger;
+      }
+      .nav.navbar-nav {
+        padding-top: 14px;
+      }
+      .nav.navbar-nav ul > li {
+        padding-left: 80px;
+      }
+      ul {
+        font-size: large;
+        font-weight: bold;
+      }
+      p {
+        font-size: 20px;
+      }
+      #types {
+        float: left;
+      }
+      ol {
+        margin: 0;
+        padding-right: 10px;
+        width: 50%;
+        float: left;
+      }
+      #parahead {
+        color: rgb(197, 82, 181);
+      }
+      #head {
+        text-align: center;
+      }
+      #foot {
+        font-size: 17px;
+      }
+      #i2 {
+        width: 30%;
+        height: 30%;
+        padding-left: 180px;
+      }
+      #i1 {
+        float: right;
+        width: 50%;
+        height: 50%;
+      }
+      #imag {
+        float: right;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">RESUME BUILDER</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="templates.html">Templates</a></li>
+            <li><a href="resume.html">Create Resume</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                >Let's Start<span class="caret"></span
+              ></a>
+              <ol class="dropdown-menu">
+                <li>
+                  <a href="login.html" style="margin: 10px">Login</a>
+                </li>
+                <li>
+                  <a href="acc copy.html" style="margin: 10px">Sign Up</a>
+                </li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 style="color: blue">The Best Free Online Resume Builder</h1>
+      <p>
+        A Quick and Easy Way to Create Your Professional Resume. 30+
+        Professional Resume Templates Choose from over thirty modern and
+        professional templates. All of which can be customized to your liking.
+        Fast and Easy to Use Our resume builder lets you easily and quickly
+        create a resume using our resume wizard.
+      </p>
+      <button class="btn btn-primary btn-lg">
+        <a href="resume.html" style="color: white text-decoration none"
+          >Create my CV</a
+        >
+      </button>
+      <h2>A Free, Quick and Easy Way to Create Your Professional Resume.</h2>
+      <div>
+        <div id="types">
+          <ol type="i">
+            <li>
+              <p id="parahead">30+ Professional Resume Templates</p>
+              <p>
+                Choose from over thirty modern and professional templates. All
+                of which can be customized to your liking.
+              </p>
+            </li>
+            <li>
+              <p id="parahead">Fast and Easy to Use</p>
+              <p>
+                Our free resume builder lets you easily and quickly create a
+                resume using our resume wizard.
+              </p>
+            </li>
+            <li>
+              <p id="parahead">Robust Text Editor</p>
+              <p>
+                Our text editor has everything you need to customize your
+                resume. Choose different fonts, sizes, bullets and much more.
+              </p>
+            </li>
+            <li>
+              <p id="parahead">Download your resume as PDF</p>
+              <p>
+                Download your resume and send it straight to the hiring manager.
+                Whatever format you choose, we&rsquo;ve got you covered.
+              </p>
+            </li>
+          </ol>
+        </div>
+        <div id="imag"><img src="side.png" id="i1" /></div>
+      </div>
+      <h2 id="head">Resume Examples</h2>
+      <p>
+        Need help building your resume? By analyzing thousands of winning
+        resumes, we were able to build guides to help you build the perfect
+        resume for the job you want. We’re adding more and more examples and
+        guides every week in order to have the most comprehensive directory of
+        resume examples. Click below to check out some of our featured resume
+        examples along with tips for making your resume stand out!
+      </p>
+      <h2 id="head">Cover Letter</h2>
+      <p>
+        In addition to a resume, having a strong cover letter helps you standout
+        among other job applicants. But, it can be hard to know where to start.
+        Below see some of our featured cover letter examples which include
+        experience-based downloadable PDFs and a must-have checklist from hiring
+        experts. We’re publishing cover letter examples each week to create the
+        most comprehensive directory for job seekers.
+      </p>
+      <!-- <footer>
+      <div style="float: left">
+        <img src="foor.png" id="i2" />
+        &copy;
+        <p style="padding-left: 170px">
+          2023 ResumeBuilder.com. All rights reserved.
+        </p>
+      </div>
+      <div style="float: right">
+        <p id="foot">Resume Builder</p>
+        <p id="foot">Resume Examples</p>
+        <p id="foot">Resume Templates</p>
+        <p id="foot">Contact Us</p>
+        <p id="foot">About</p>
+        <p id="foot">Services</p>
+      </div>
+    </footer> -->
+      <footer>
+        <p>&copy;2023 ResumeBuilder.com. All rights reserved</p>
+        <nav>
+          <ul style="list-style-type: none">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="templates.html">Templates</a></li>
+            <li><a href="resume.html">Resume</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
